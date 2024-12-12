@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black; /* Sets the background to black */
+    color: white; /* Optional: Sets the default text color to white for readability */
+    margin: 0; /* Removes default margin to prevent spacing issues */
+    height: 100%; /* Ensures the background covers the full height */
+  }
+  
+  #root {
+    height: 100%; /* Ensures the root div fills the viewport */
+  }
